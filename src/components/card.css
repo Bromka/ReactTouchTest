@@ -1,0 +1,20 @@
+:root {
+    --main-bg-color: brown;
+}
+
+* {
+    box-sizing: border-box;
+}
+.CardClass {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    position: relative;
+    display: block;
+}
+.outlined {
+    border: 1px solid #ddd;
+}
+
+.primary {
+    background-color: var(--main-bg-color);
+}
